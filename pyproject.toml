@@ -1,0 +1,23 @@
+[project]
+name = "laboratorio1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sirlopu joel"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.0.6,<4.0.0)",
+    "scikit-learn (>=1.9.1,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
